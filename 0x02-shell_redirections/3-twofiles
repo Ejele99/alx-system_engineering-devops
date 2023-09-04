@@ -1,2 +1,6 @@
 #!/bin/bash
-paste -d" " /etc/passwd /etc/hosts
+echo "## /etc/passwd ##"
+cat /etc/passwd
+
+echo -e "\n## /etc/hosts ##"
+cat /etc/hosts
