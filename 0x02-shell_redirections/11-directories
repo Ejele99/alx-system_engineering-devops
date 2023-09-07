@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Total directories and sub-directories: $(find -type d | wc -l)"
